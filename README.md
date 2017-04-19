@@ -10,7 +10,7 @@ C:\Users\user\Desktop\myTexture.bmp.<br />
 The project files are set up to be used in VS2013_x64.<br />
 Copy the cube.c4d & cubeTexture.bmp files to your computer(the desktop is a common place).<br />
 Make sure you have the Melange sdk on your computer.<br />
-Open the project in VS and change the file path to point at the cube.c4d file on your computer. Change the linker options to Melange if needed. Then compile and run it.
+Open the project in VS and change the file path in the code to point at the cube.c4d file on your computer. Change the linker options to Melange if needed. Then compile and run it.
 
 OpenGL requires many 3rd party libraries. This can be very painful to deal with when getting started.
 The libs (freeglut, glew, & FreeImage) required for the openGL in the code are included in the project to make it easier for people new to openGL to get started.<br />
