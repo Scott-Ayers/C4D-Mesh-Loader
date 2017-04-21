@@ -13,7 +13,7 @@ Make sure you have the Melange sdk on your computer.<br />
 Open the project in VS and change the file path in the code to point at the cube.c4d file on your computer. Change the linker options to Melange if needed. Then compile and run it.
 
 OpenGL requires many 3rd party libraries. This can be very painful to deal with when getting started.
-The libs (freeglut, glew, & FreeImage) required for the openGL in the code are included in the project to make it easier for people new to openGL to get started.<br />
-If you plan on doing openGL coding you should install these libs (and others) in your C: drive.
+The libs (freeglut, glew, & FreeImage) required for the openGL in the code are included in the project to make it easier for people new to openGL to get started. And the project's linker properties are set up to use them.<br />
+If you plan on doing openGL coding you should install these libs (and others) in your C: drive and link to them instead.
 
 -ScottAyers(ScottA)
